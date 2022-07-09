@@ -21,7 +21,7 @@ def dfs(x, y):
         return True
     return False
 
-result = 0
+result = 0;
 for i in range(n):
     for j in range(m):
         if dfs(i, j):
